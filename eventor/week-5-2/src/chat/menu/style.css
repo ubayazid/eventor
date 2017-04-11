@@ -1,6 +1,6 @@
 menu {
     position: relative;
-    height: 60px;
+    height: 70px;
     background: #9f046f;
     color: #9f046f;
     padding: 10px;
@@ -9,11 +9,13 @@ menu {
 }
 .name{
     display: inline-flex;
+    color:goldenrod;
+    font-weight:bold;
     position: absolute;
     height: 80px;
-    width:30%;
-    left: 0px;
-    top: 5px;
+    width:25%;
+    left: 10px;
+    top: -7px;
 }
 
 .name h1{
@@ -21,12 +23,12 @@ menu {
 }
 
 .search{
-     display: inline-flex;
-     position:absolute;
+    display:inline-flex;
+    position:absolute;
     height: 80px;
     width:50%;
     top: 5px;
-    left: 30%;  
+    left:25%;  
 }
 
 .search input{
@@ -36,6 +38,8 @@ menu {
 }
 
 .search img{
+    height:50px;
+    width:50px;
     margin-top:7px;
     margin-left: 10px;
 }
@@ -47,6 +51,7 @@ menu {
 .user{
     display: inline-block;
     position: absolute;
+    color:goldenrod;
     height:80px;
     width:10%;
     top: 0px;
