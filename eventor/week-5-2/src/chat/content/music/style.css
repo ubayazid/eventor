@@ -4,3 +4,8 @@
     margin: 0 5px;
     padding: 5px;
 }
+.music img:hover{
+    
+    background-color:orange;
+    cursor: pointer;
+}

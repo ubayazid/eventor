@@ -45,6 +45,8 @@ menu {
 }
 
 .search img:hover{
+    
+    background-color:orange;
     cursor: pointer;
 }
 
