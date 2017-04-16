@@ -12,6 +12,7 @@ var movies = require('./routes/movies');
 var music = require('./routes/music');
 var news = require('./routes/news');
 var maps = require('./routes/maps');
+var searchs = require('./routes/searchs');
 var cors = require('cors');
 var app = express();
 
@@ -34,6 +35,7 @@ app.use('/movies', movies);
 app.use('/musics', music);
 app.use('/news', news);
 app.use('/maps', maps);
+app.use('/searchs', searchs);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
