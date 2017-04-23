@@ -36,5 +36,9 @@
     "vinyl-paths": "^2.1.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.9.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "search": "^1.0.0"
   }
 }

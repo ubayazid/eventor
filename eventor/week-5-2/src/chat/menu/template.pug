@@ -5,17 +5,11 @@
 div(class='name')
     h1 EVENTOR!
 div(class='search')
-    input(type="text", name="search", placeholder="Search")
-    img(src='/static/search.png' ng-click="$ctrl.setItem('click')")
-    
-   
+    input(type="text", ng-model="$ctrl.search", placeholder="Search")
+    img(src='/static/search.png' ng-click="$ctrl.setItem($ctrl.search)")
 div(class='signIn')
-    input(type="button", name="signIn",value="Sing In")
-
-
-   
-
-
+    input(type="button", name="signIn", value="Sing In" ng-click="$ctrl.setItem('click')")
+//div.button(ng-click="$ctrl.setItem('click')") Ugur
 //div(class='user')
 
 //p Sing In {{$ctrl.owner.username}}

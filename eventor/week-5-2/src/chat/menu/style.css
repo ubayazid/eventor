@@ -83,7 +83,7 @@ menu {
     width:10%;
     top: 10px;
     left:87%;
-    color: white;
+    color: blue;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -92,6 +92,7 @@ menu {
     margin: 4px 2px;
     cursor: pointer;
 }
+
 menu h1 {
     font-weight: 300;
     display: inline;
